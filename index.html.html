@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="om">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Gootota Oromoo 50 — seenaa, suuraa fi galmee aadaa.">
+<title>GOOTOTA OROMOO | Odaa Nabee</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress"></div>
+<header class="topbar">
+<a class="brand" href="#home"><span class="logo"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="56"></circle><path d="M60 91V53M60 57C46 51 36 41 34 29M60 65C74 58 84 47 87 34M60 49C55 39 56 29 60 21M45 72C36 69 29 64 25 56M75 73C85 70 92 64 96 55"></path><path d="M49 91h22"></path></svg></span><span><b>ODAA NABEE</b><small>Seenaa • Aadaa • Gootummaa</small></span></a>
+<nav><a href="#home">Mana</a><a href="#gootota">Gootota</a><a href="#waaee">Waa'ee</a></nav>
+<button class="theme-btn" id="themeBtn" aria-label="Halluu jijjiiri">◐</button>
+</header>
+<main id="home">
+<section class="hero"><div class="hero-copy"><div class="eyebrow">ODAA NABEE • GALMEE SEENAA</div><h1>GOOTOTA<br><span>OROMOO</span></h1><p>Seenaa, hojii, aadaa fi milkaa'ina namoota Oromoo seenaa keessatti mallattoo ta'an 50 walitti qabu.</p><div class="hero-actions"><a class="btn primary" href="#gootota">Gootota Ilaali ↓</a><button class="btn ghost" id="randomBtn">Goota Tasaa ↗</button></div><div class="stats"><div><strong>50</strong><span>Gootota</span></div><div><strong>10</strong><span>Gallery / goota</span></div><div><strong>100%</strong><span>Responsive</span></div></div></div><div class="hero-tree"><div class="tree-ring"></div><div class="tree-mark">ODAA<br><small>NABEE</small></div></div></section>
+<section class="quote-strip"><span>✦</span><p>“Seenaa beekuun eenyummaa keenya jabeessa; hojii gaarii dhaloota itti aanuuf dhaala.”</p><span>✦</span></section>
+<section id="gootota" class="people-section"><div class="section-head"><div><div class="eyebrow">GALMEE 01 — 50</div><h2>Gootota Oromoo</h2></div><div class="tools"><input id="search" type="search" placeholder="Maqaa barbaadi..."><select id="filter"><option value="all">Hundaa</option><option value="history">Seenaa & Qabsoo</option><option value="culture">Aadaa & Aartii</option><option value="science">Saayinsii & Barnoota</option><option value="sport">Ispoortii</option><option value="public">Hoggansa & Hawaasummaa</option></select></div></div><div id="grid" class="grid"></div><p id="empty" class="empty" hidden>Nama ati barbaadde hin argamne.</p></section>
+<section id="waaee" class="about"><div><div class="eyebrow">ODAA NABEE</div><h2>Seenaa keenya haa kuusnu.</h2></div><p>Website kun galmee dijitaalaa fakkeenya hojii gootota Oromoo adda addaa walitti qabuudha. Suuraaleen namoota dhuunfaa Wikipedia/Wikimedia irraa yoo argaman browser keessatti ofumaan fe'amu; yoo suuraan hin jirre, bakka bu'aa maqaa agarsiisa. Odeeffannoo dabalataaf linkii madda tokkoon tokkoon card irratti argamu ilaali.</p></section>
+</main>
+<footer><div class="footer-brand">ODAA NABEE</div><div>GOOTOTA OROMOO • Digital Heritage Collection</div><div>© <span id="year"></span></div></footer>
+<div id="modal" class="modal" aria-hidden="true"><div class="modal-backdrop" data-close></div><article class="modal-card"><button class="close" data-close>×</button><div id="modalContent"></div></article></div>
+<script src="script.js"></script>
+</body></html>
